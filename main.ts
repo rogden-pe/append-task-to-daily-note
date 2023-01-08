@@ -19,8 +19,8 @@ export default class AddTask extends Plugin {
 
 	async onload() {
 		this.addCommand({
-		id: "add-task",
-		name: "Add Task",
+		id: "append-to-daily-note",
+		name: "Append",
 		callback: async () => {
 			try {
 				const { vault } = this.app;
